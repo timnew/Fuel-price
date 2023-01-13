@@ -1,0 +1,13 @@
+{
+  "name": "fuel_price_monitor",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "timnew",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@google/clasp": "^2.4.1",
+    "@types/google-apps-script": "^1.0.47",
+    "typescript": "^4.7.3"
+  }
+}
