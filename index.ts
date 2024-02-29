@@ -310,7 +310,7 @@ class ReportEmail {
     for (const fuelType of this.fuelTypes) {
       const typeReports = reportSet[fuelType]
 
-      for (const region of ['All', this.homeState] as RegionName[]) {
+      for (const region of [this.homeState] as RegionName[]) {
         if (region == null) {
           Logger.log('region is null, skip')
           continue
